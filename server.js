@@ -27,12 +27,14 @@ io.on('connection', (socket) => {
 
     socket.on('login-professor', (id) => {
         id_professor = id
-        console.log('Professor conectado\nID: ' + id_professor);
+        //console.log('Professor conectado\nID: ' + id_professor);
     });
 
     socket.on('login-aluno', (id) => {
         id_aluno = id;
-        console.log('Aluno conectado\nID: ' + id_aluno);
+        //console.log('Aluno conectado\nID: ' + id_aluno);
+        io.sockets.emit('aluno-conectado', id_aluno)
+
     });
 
     socket.on('quiz-finalizado', (resultadoAluno) => {
@@ -43,7 +45,12 @@ io.on('connection', (socket) => {
         
         resultadoAluno.nota = nota;
 
-        socket.to(id_professor).emit('resultado', resultadoAluno); 
+        //emitir apenas para o professor que criou o quiz / conectado
+        //socket.to(id_professor).emit('resultado', resultadoAluno); 
+
+        // emite para todos, para o aluno ver seu resultado
+        io.sockets.emit('resultado', resultadoAluno)
+
     });
    
     socket.on('disconnect', (socket) => {
