@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Maria Joaquina comprou os seguintes materiais escolares: Uma borracha R$ 00,50; Um caderno R$5,00; Um apontador R$ 1,00; Uma tesoura R$ 2,00. Ao todo quanto Maria Joaquina gastou?",
+    "alternativas": {
+      "a": "R$ 8,00",
+      "b": "R$ 8,25",
+      "c": "R$ 9,00",
+      "d": "R$ 9,50",
+      "e": "R$ 8,50"
+    },
+    "resposta": "R$ 8,50",
+    "exibida": false
+  },
+  {
+    "id": 2,
+    "pergunta": "Para a organização da tabela dos jogos da copa do mundo, os 48 países participantes foram divididos em 8 grupos com a mesma quantidade de times. Cada grupo ficou com?",
+    "alternativas": {
+      "a": "6 países",
+      "b": "5 países",
+      "c": "9 países",
+      "d": "10 países",
+      "e": "7 países"
+    },
+    "resposta": "6 países",
+    "exibida": false
+  },
+  {
+    "id": 3,
+    "pergunta": "Na escola de Melissa foi realizado um baile de carnaval. Dos 754 alunos, faltaram 348. Quantos alunos foram ao baile?",
+    "alternativas": {
+      "a": "548 alunos",
+      "b": "456 alunos",
+      "c": "406 alunos",
+      "d": "415 alunos",
+      "e": "414 alunos"
+    },
+    "resposta": "456 alunos",
+    "exibida": false
+  },
+  {
+    "id": 4,
+    "pergunta": "Um fazendeiro tinha 285 bois. Comprou mais 176 bois e depois vendeu 85 bois. Quantos bois esse fazendeiro tem agora?",
+    "alternativas": {
+      "a": "206",
+      "b": "376",
+      "c": "476",
+      "d": "576",
+      "e": "776"
+    },
+    "resposta": "576",
+    "exibida": false
+  },
+  {
+    "id": 5,
+    "pergunta": "Para fazer um trabalho a professora Flávia dividiu as 3 turmas do 5 ano com 108 alunos em 4 grupos. Quantos grupos foram formados?",
+    "alternativas": {
+      "a": "25",
+      "b": "26",
+      "c": "27",
+      "d": "24",
+      "e": "21"
+    },
+    "resposta": "26",
+    "exibida": false
+  }
+]
